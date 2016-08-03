@@ -1,7 +1,6 @@
 $(document).ready(function() {
 
-    //MARK:
-    // BROKEN GAME. kinda works but difficulty button is broken af.
+
     var colorArray = ["midnightblue", "mediumaquamarine", "darkslategrey", "peachpuff", "mediumseagreen", "darkorchid", "lightcoral", "lightsteelblue", "honeydew", "lavenderblush", "papayawhip", "mediumspringgreen", "tomato", "mediumvioletred", "darksalmon"];
     var currentColor = "";
     var difficulty = 2;
@@ -117,7 +116,6 @@ $(document).ready(function() {
 
 
 
-    //TODO: add up+down arrows to choose amount of colors on screen
     //TODO: add effect on click, 1. wrong color 2. right color
 
     function randomNumber(min, max) {
